@@ -1,7 +1,7 @@
 def study_schedule(permanence_period, target_time):
     saida = 0
-    n = len(permanence_period)  # N será a quantidade de elementos da lista
-    for index in range(0, n):  # vamos iterar a lista completa
+    n = len(permanence_period)
+    for index in range(0, n):
         if permanence_period[index] == target_time:
             saida += 1
 
