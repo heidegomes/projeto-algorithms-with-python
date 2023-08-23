@@ -8,6 +8,7 @@ def find_duplicate(nums):
     return False
 
     # return len(nums) != len(set(nums))
+
     # nums.sort()
     # duplicate = {}
     # for num in nums:
